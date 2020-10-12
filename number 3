@@ -1,0 +1,3 @@
+my_tuplelist = [('English', 88), ('Science', 90), ('Maths', 97), ('Social Science', 82)]
+sort_list = lambda x: sorted(my_tuplelist)
+print(sort(sort_list))
