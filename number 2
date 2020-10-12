@@ -1,0 +1,7 @@
+def lambda_multiply(n):
+  return lambda x : x * n
+
+result = lambda_multiply(n)
+print(result(x))
+
+#change n and x to any argument and multiplication value on line 4 and 5.
