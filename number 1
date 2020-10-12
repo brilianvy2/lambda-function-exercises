@@ -1,0 +1,9 @@
+add = lambda x: x + 15
+multiply = lambda x, y: x + y
+
+x = eval(input("Input number to be added with 15: "))
+print(add(x))
+
+argument= eval(input("Input first number to be multiplied: "))
+random_number= eval(input("Input second number to be multiplied: "))
+print(multiply(argument, random_number))
